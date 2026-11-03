@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/problemListFragment">
+
+    <fragment
+        android:id="@+id/problemListFragment"
+        android:name="com.example.housefix.fragment.ProblemListFragment"
+        android:label="ProblemListFragment"
+        tools:layout="@layout/list_fragment">
+
+        <action
+            android:id="@+id/showDetailFragment"
+            app:destination="@id/problemDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/problemDetailFragment"
+        android:name="com.example.housefix.fragment.ProblemDetailFragment"
+        android:label="ProblemDetailFragment"
+        tools:layout="@layout/detail_fragment">
+
+        <argument
+            android:name="problemId"
+            app:argType="integer" />
+
+    </fragment>
+
+</navigation>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HouseFix</string>
+    <string name="detail_fragment_heading">Problem Detail</string>
+    <string name="detail_fragment_sub_heading">Tell us about the problem in your room or common area.</string>
+    <string name="date_reported">Date Reported</string>
+    <string name="problem_title">Problem Title</string>
+    <string name="problem_title_hint">e.g. Broken air conditioner</string>
+    <string name="description">Description</string>
+    <string name="description_hint">Describe the problem in detail...</string>
+    <string name="switch_problem_solved">Problem Solved</string>
+    <string name="btn_update_complaint">Update</string>
+</resources>
